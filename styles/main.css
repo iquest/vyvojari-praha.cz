@@ -95,6 +95,10 @@ img{
 #map-wrap{
 	transition: all .3s;
 	position: relative;
+	background-image: url(../images/map.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	height: 100vh;
 }
 #map-wrap iframe{
 	border: none;
@@ -707,5 +711,10 @@ img{
 	}
 	.map-overlay-block.index-2{
 		margin-left: 300px;
+	}
+}
+@media (min-width: 1921px), (min-height: 1081px){
+	#map-wrap{
+		background-size: cover;
 	}
 }
