@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Host: http://www.vyvojari-praha.cz/
+Sitemap: http://www.vyvojari-praha.cz/sitemap.xml
